@@ -283,5 +283,22 @@ git merge <origin/master> (alias/branch)
 
 git pull = git fetch + git merge
 
+delete remote branch
+```
+git push <alias> :<to_delete_remote_branch_name>
+git push <alias> --delete <to_delete_remote_branch_name>
+```
+push local branch to remote branch
+```
+git push <alias> <localBranch>:<remote_branch>
+```
+
+### some shortcut
+
+```
+git config --global alias.logg "log --graph --decorate --oneline --abbrev-commit --all"
+```
+
+
 
 > [github markdown(.md)](https://guides.github.com/features/mastering-markdown/)
