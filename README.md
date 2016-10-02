@@ -215,7 +215,61 @@ reduce the conflicts
 4. merge often
 5. track changes to master
 
+### Stath
 
+save to stash
+```
+git stash save "message"
+```
+view change stash
+```
+git stash list
+git stash show stash@{0}
+git stash show -p stash@{0}
+```
+
+pop stash
+```
+git stash apply
+git stash pop (remove it form stash)
+git stash pop stash@{2}
+```
+delete item in stash
+```
+git stash drop stash@{0}
+git stash clear (delete all)
+```
+### Remotes
+
+
+add remote git server
+```
+git remote add <alias> https://XXXX.git
+```
+check remote
+```
+git remote -v
+```
+
+remove remote
+```
+git remote rm <alias>
+```
+
+push to remote
+```
+git push -u <alias> <branch>
+```
+
+git remote branch
+```
+git branch -r
+git branch -a (both remote and local)
+```
+clone repository
+```
+git clone https://XXXX.git <newname>
+```
 
 
 
