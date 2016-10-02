@@ -195,6 +195,27 @@ merge branch
 ```
 git merge other_branch
 ```
+fastforword merge and real merge
+
+conflicts
+1. abort merge
+```
+git merge --abort
+```
+2. merge it manually
+3. merge by merge tool
+```
+git mergetool
+```
+reduce the conflicts
+1. keep lines short
+2. keep commits small and focused
+3. beware stray edits to whitespace
+ > space, tabs, line returns
+4. merge often
+5. track changes to master
+
+
 
 
 
