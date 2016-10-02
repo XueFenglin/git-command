@@ -1,4 +1,4 @@
-##### Learn GIT Command
+# Learn GIT Command
 
 ### Install
 [Git website](http://git-scm.com)
