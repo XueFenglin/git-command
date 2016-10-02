@@ -191,6 +191,10 @@ delete branch
 git branch -d branchNewName
 git branch --delete branchName
 ```
+merge branch
+```
+git merge other_branch
+```
 
 
 
