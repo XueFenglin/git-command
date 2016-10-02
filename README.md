@@ -271,6 +271,17 @@ clone repository
 git clone https://XXXX.git <newname>
 ```
 
+fetch change from remote repository
+```
+git fetch
+```
+
+merging in fetched changes
+```
+git merge <origin/master> (alias/branch)
+```
+
+git pull = git fetch + git merge
 
 
 > [github markdown(.md)](https://guides.github.com/features/mastering-markdown/)
