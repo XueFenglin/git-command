@@ -156,6 +156,14 @@ check current branch
 git branch
 ```
 
-
+create new branch
+```
+git branch <new branch name>
+```
+switch
+```
+git checkout <branch name>
+git checkout master
+```
 
 > [github markdown(.md)](https://guides.github.com/features/mastering-markdown/)
