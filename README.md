@@ -186,6 +186,12 @@ git branch -m branchOldName branchNewName
 git branch --move branchOldName branchNewName
 ```
 
+delete branch
+```
+git branch -d branchNewName
+git branch --delete branchName
+```
+
 
 
 > [github markdown(.md)](https://guides.github.com/features/mastering-markdown/)
