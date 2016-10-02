@@ -298,7 +298,3 @@ git push <alias> <localBranch>:<remote_branch>
 ```
 git config --global alias.logg "log --graph --decorate --oneline --abbrev-commit --all"
 ```
-
-
-
-> [github markdown(.md)](https://guides.github.com/features/mastering-markdown/)
