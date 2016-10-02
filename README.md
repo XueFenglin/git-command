@@ -166,4 +166,26 @@ git checkout <branch name>
 git checkout master
 ```
 
+create branch and switch it
+```
+git checkout -b <new branch name>
+```
+compare the branch
+```
+git diff oldbranch..newbranch
+```
+
+check merged status
+```
+git branch --merged
+```
+
+rename branch
+```
+git branch -m branchOldName branchNewName
+git branch --move branchOldName branchNewName
+```
+
+
+
 > [github markdown(.md)](https://guides.github.com/features/mastering-markdown/)
