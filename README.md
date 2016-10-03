@@ -215,7 +215,7 @@ reduce the conflicts
 4. merge often
 5. track changes to master
 
-### Stath
+### Stash
 
 save to stash
 ```
